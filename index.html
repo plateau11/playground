@@ -100,7 +100,15 @@
     </div><br><br>
 
     <footer class="container-fluid text-center">
-        <p>&copy; 2023 Educational Website. All rights reserved.</p>
+        <p><span style="float:left">&copy; 2023 Educational Website. All rights reserved.</span> <span id="result" style="float:right"> </span></p>
+
+
+
+      <script>
+        var date = document.lastModified;
+        document.getElementById("result").innerHTML = "This Page was last modified on : " + date;
+      </script>
+
     </footer>
   </body>
 </html>
