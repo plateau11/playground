@@ -293,6 +293,12 @@ ul.btn li:last-child {
      text-transform: uppercase;
      padding: 0 0 3px 0;
      position: relative;
+
+}
+
+.nav-link:hover
+{
+  background-color: pink;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
@@ -997,7 +1003,7 @@ ul.link_icon li a i {
      padding-right: 10px;
 }
 
-ul.link_icon li a { 
+ul.link_icon li a {
      color: #fff;
      float: left;
      text-align: center;
