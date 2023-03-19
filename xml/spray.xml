@@ -1,0 +1,57 @@
+<BodySpray>
+
+    <Ingredient>LPG</Ingredient>
+    <Ingredient>Extra Neutral Alcohol</Ingredient>
+    <Ingredient>Perfume</Ingredient>
+    <Ingredient>Diethyl Phthalate</Ingredient>
+    <Ingredient>Tertiary Butyl Alcohol</Ingredient>
+    <Ingredient>Sensidin DO</Ingredient>
+    <Ingredient>Isopropyl Myristate</Ingredient>
+
+    <AlcoholContent concentration ="95% v/v">
+        <Content>46% denatured with 2.5% Diethyl Phthalate</Content>
+        <Content>0.5% Tertiary Butyl Alcohol</Content>
+    </AlcoholContent>
+
+
+    <Manufacture>
+      <By>HELIOS PACKAGING PVT. LTD. A-140, IND area EPIP Neeemrana, District Alwar-301705, Rajasthan</By>
+      <MfgLicNo.>M Raj 2458-C</MfgLicNo.>
+      <St.Ex.Lic.No.>01/2018-2019</St.Ex.Lic.No.>
+    </Manufacture>
+
+    <Marketed>
+      <By>HELIOS LIFESTYLE PVT. LTD.</By>
+      <By>Spazedge, Tower-B, 522-526,Sec. 47,Gurgaon-122002,Haryana,India</By>
+        <QueriesComplaint>
+          <Contact>Manager-Consumer Relations at above addreess</Contact>
+          <TelNo>+91-9667031212</TelNo>
+          <Email>care@themancompany.com</Email>
+          <Website>www.themancomapany.com</Website>
+        </QueriesComplaint>
+    </Marketed>
+
+    <UseDirections>Hold the can upright 10 cm away from skin and avoid eye contact.</UseDirections>
+    <UseDirections>Shake well before use and spray all over body.</UseDirections>
+    <UseDirections>For external use only.</UseDirections>
+    <UseDirections>Store in cool place away from heat or sunlight.</UseDirections>
+
+    <Caution>Protect from sunlight and do not expose to temperature exceeding 50 degrees Celsius.</Caution>
+    <Caution>Keep away from sources of ignition.</Caution>
+    <Caution>Keep out of the reach of children.</Caution>
+    <Caution>Do not spray near eyes, on face or into a broken or sore skin.</Caution>
+    <Caution>Discontinue use if irritation occurs.</Caution>
+    <Caution>Please recycle when empty.</Caution>
+    <Caution>Do not crush</Caution>
+    <Caution>Extremely flammable.</Caution>
+
+    <NetVolume>e150 ml / 100 g</NetVolume>
+
+    <MRP> Rs. 249.00</MRP>
+    <BatchNo>22748</BatchNo>
+    <Mfg.Date>07/2022</Mfg.Date>
+    <Exp.Date>06/2025</Exp.Date>
+
+    <MadeIn>India</MadeIn>
+
+</BodySpray>
