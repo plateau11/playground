@@ -9,7 +9,7 @@ var element = document.querySelector(".quotes");
 
 var dateObj = new Date();
 
-var day = dateObj.getUTCDate();
+  var day = dateObj.getDate();
 
 var q = "Quote of the day : ";
 
