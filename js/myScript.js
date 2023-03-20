@@ -16,6 +16,12 @@ var q = "Quote of the day : ";
 if(day == 20)
   element.textContent = q + q20;
 
-else if(day == 21) {
-  element.textContent = quote1;
-}
+else if(day == 21)
+  element.textContent = q + q21;
+
+else if(day == 22)
+  element.textContent = q + q22;
+
+else
+  element.textContent = q;
+
