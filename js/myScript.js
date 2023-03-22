@@ -22,6 +22,9 @@ else if(day == 21)
 else if(day == 22)
   element.textContent = q + q22;
 
+
+else if(day == 23)
+  element.textContent = q + q23;
+
 else
   element.textContent = q;
-
