@@ -1,55 +1,128 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
     <title></title>
   </head>
   <body>
 
-    <div class="header">
-
-        <button class="btn2" ><a style="text-decoration:none;color:white" href="#">Home</a></button>
-
-        <div class="dropdown">
-
-            <button class="dropbtn">Topics</button>
-
-            <div class="dropdown-content">
-                <a href="links/Nlp.html">Natural language processing</a>
-                <a href="#">Xml</a>
-                <a href="https://www.animepahe.com" target=”_blank”>Anime</a>
-            </div>
-
-
-
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">NerdyBytes</a>
         </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Articles<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="articles/Nlp.html">Natural Language Processing</a></li>
+              <li><a href="articles/spray.xml">XML</a></li>
+              <li><a href="#">C++</a></li>
+            </ul>
+          </li>
 
-        <button class="btn2" ><a style="text-decoration:none;color:white" href="links/about.html">About</a></button>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Fun Zone<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://www.animepahe.com" target="_blank">Anime</a></li>
+              <li><a href="#">Football</a></li>
+              <li><a href="#">Music</a></li>
+            </ul>
+          </li>
+
+              <li>
+
+          <li><a href="about.html">About</a></li>
+
+
+              <li class="quotes" style="color:white;">
+
+              </li>
+
+                <script src="js/myScript.js" charset="utf-8"></script>
+
+          
+
+        </ul>
+      </div>
+
+
+
+
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>NerdyBytes</h1>
+        <p>The portfolio of articles of Computer Science</p>
+      </div>
 
     </div>
 
-    <div class="middle">
+    <div class="container-fluid bg-3 text-center">
+      <h3>Some of our Articles</h3><br>
+      <div class="row">
+        <div class="col-sm-3">
+          <a href="articles/Nlp.html">Natural Language Processing</a>
+          <img src="images/nlp.gif" class="img-responsive" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <a href="articles/spray.xml">XML</a>
+          <img src="images/xml.png" class="img-responsive" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <a href="#">Dynamic Programming</a>
+          <img src="images/dp.png" class="img-responsive"  alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <a href="#">C++</a>
+          <img src="images/c++.png" class="img-responsive" alt="Image">
+        </div>
+      </div>
+    </div><br>
+    <div class="container-fluid bg-3 text-center">
+      <div class="row">
+        <div class="col-sm-3">
+          <a href="#">Neural Networks</a>
+          <a href="#"><img src="images/nn.png" class="img-responsive" alt="Image"></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="#">Generative Adverserial Network</a>
+          <img src="images/gan.png" class="img-responsive" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <a href="#">Transformers</a>
+          <img src="images/transformers.png" class="img-responsive" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <a href="#">NP-Complete Problems</a>
+          <img src="images/npc.svg" class="img-responsive" alt="Image">
+        </div>
+      </div>
+    </div><br><br>
 
-        <h2>Playground home page</p>
-
-    </div>
-
-
-    <div class="footer">
-
-    </div>
+    <footer class="container-fluid text-center">
+        <p><span style="float:left">&copy; 2023 Educational Website. All rights reserved.</span> <span id="result" style="float:right"> </span></p>
 
 
+      <script>
+        var date = document.lastModified;
+        document.getElementById("result").innerHTML = "This Page was last modified on : " + date;
+      </script>
 
-
-
-
-
+    </footer>
   </body>
 </html>
