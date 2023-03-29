@@ -11,5 +11,3 @@
 | 1 | NLP | [Link](articles/Nlp.html)|
 | 2 | XML | [Link](articles/spray.xml)|
 | 3 | C++ | [Link]()|
->>>>>>> 9433fee6241a2afb72ffcd4b381320532734e43d
->>>>>>> mohannn-sys-main
